@@ -1,0 +1,483 @@
+/* :root {
+  --desktop: 1200px;
+  --laptop:  1024;
+  --tablet: 768;
+  --phone: 480px;
+} */
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+background: url('/img/background\ 3.png') no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+opacity: o.2;
+
+}
+
+
+
+
+h1 {
+  text-align: center;
+}
+
+img {
+  height: 15%;
+  width: 15%;
+  border: solid  rgb(188, 188, 214);
+  border-radius: 50%;
+  padding: 18px;
+}
+
+.logo {
+  margin: 5px;
+}
+
+
+
+.header_container {
+  border-bottom: solid rgb(99, 52, 107);
+  opacity: 5px;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  width: 101%;
+  background-color: rgb(110, 92, 125);
+  
+}
+
+
+@media (min-width: 670px) and (max-width: 910px) {
+  .header_container {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+
+  }
+
+  li a {
+    margin-right: 20px;
+    display: inline-block;
+}
+}
+
+
+
+
+
+
+ @media screen and (max-width: 910px) {
+   .container {
+     width: 110%;
+   }
+ }
+
+
+
+
+ @media screen and (max-width: 768px) {
+  .testimonial_wrapper {
+   flex-direction: column;
+   justify-content: center;
+  }
+
+  .row {
+    margin-left: 80px;
+  }
+}
+
+@media screen and (max-width: 598px) {
+  .testimonial_wrapper {
+   flex-direction: column;
+   justify-content: center;
+  }
+
+  .row {
+    margin-left: 30px;
+  }
+
+  .texts {
+    margin-left: 60px;
+  }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 488px) {
+  .form_container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+ @media screen and (max-width: 1026px) {
+  .main_container {
+   display: flex;
+   width: 125%;
+   margin-left: -20px;
+  }
+
+  .btn {
+    width: 55px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .main_container {
+   display: flex;
+   width: 110%;
+  }
+
+  .btn {
+    width: 55px;
+  }
+}
+
+
+@media screen and (max-width: 690px) {
+  .main_container {
+   display: flex;
+   flex-direction: column;
+   width: 170%;
+   /* I may need to put this back so I can center the whole site along with it*/
+   padding: 0;
+   margin: 0;
+
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .item_links .item-2 {
+    margin-left: 10px;
+  }
+}
+
+
+@media screen and (min-width: 668px) {
+  .blog {
+    flex-direction: column;
+    float: none;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .article_container {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+   width: 100%;
+   position: fixed;
+  }
+}
+
+
+
+
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 30px 10px;
+  
+}
+
+
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+}
+
+.nav_links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  border: solid rgb(95, 61, 106);
+  background-color: rgb(138, 115, 177);
+  border-radius: 19px;
+  width: 50%;
+  padding: 30px;
+  margin: auto;
+}
+
+.text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+
+a:hover {
+ color: rgb(66, 34, 71);
+}
+
+.image:hover {
+  cursor: pointer;
+}
+
+.box {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.item_links {
+  
+  border: 2px solid  rgb(95, 61, 106);
+  border-radius: 19px;
+  background-color: rgb(138, 115, 177);
+  width: 30%;
+  padding: 40px;
+  margin: 80px;
+}
+
+.item-1 {
+ color:#fff;
+ text-align: center;
+}
+
+.item-2 {
+  color:#fff;
+  text-align: center;
+}
+
+.btn {
+  margin: 10px;
+  padding: 5px 10px;
+  border-color: rgb(176, 48, 106);
+  background-color: rgb(67, 23, 30);
+  color:#fff;
+}
+
+.btn:hover {
+  background-color: rgb(176, 48, 106);
+  cursor: pointer;
+}
+
+.btn_btn:hover {
+  background-color: rgb(138, 115, 177);
+  cursor: pointer;
+}
+
+
+.blog {
+  position: relative;
+  top: -540px;
+  left: 130px;
+  width: 100%;
+  margin-left:700px;
+
+}
+
+.blog_items {
+ margin-top: 20px; 
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 25px;
+ color: rgb(84, 70, 96);
+ margin-left: 130px;
+ /* padding-top: 5px; */
+}
+
+
+
+.contact {
+  margin-left: 125px;
+  color:rgb(40, 33, 46);
+}
+
+#image {
+  width: 34%;
+  background-color: rgb(110, 92, 125);
+}
+
+.work {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.form_container {
+ display: flex;
+ border-radius: 15px;
+ flex-direction: column;
+ padding: 10px 10px;
+ width: 30%; 
+ align-items: center;
+ margin: 15px;
+ margin-left: 35%;
+ border: 2px solid rgb(107, 86, 132);
+ background-color: rgb(167, 139, 202);
+}
+
+.h2-text {
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.services {
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+label input {
+  display: block;
+}
+
+input {
+  width: 90%;
+}
+
+button {
+  padding-top: 5px;
+  width: 20%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: rgb(95, 71, 125);
+  color: #fff;
+}
+
+label {
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 80%;
+  margin-left: 40px;
+}
+
+
+
+.testimonials {
+ margin-top: 130px;
+ margin-right: 140px;
+ padding-top: -900px;
+ align-items: center;
+ justify-content: center;
+
+}
+
+.testimonials div {
+  align-items: center;
+  padding-left:20px;
+
+}
+
+/* Container */
+.testimonial_wrapper {
+ position: relative;
+ height: 510px;
+ display: flex;
+ margin-left: 10px; 
+}
+
+
+.texts {
+width:110%;
+text-align: center;
+padding-top: 20px;
+}
+
+
+
+.reviewers {
+  border: 2px solid rgb(138, 115, 177);
+  height: 195px;
+  width: 180px;
+  margin-left: 100px;
+
+ 
+
+}
+
+
+.reviewers_image {
+  border: 2px solid rgb(138, 115, 177);
+  height: 195px;
+  width: 180px;
+  margin-left: 100px;  
+  
+}
+
+article {
+  height: 110px;
+}
+
+/* 
+  .footer_container {
+   margin-top: 500px;
+   margin-left: -10px;
+   bottom: 0;
+ }
+
+  footer {
+  position: absolute;
+  width: 110%;
+  height:-60px; 
+  background-color: rgb(110, 92, 125);
+}  */
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  margin-top: 10px;
+  color: white;
+}
+
+h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding-left: 10px;
+}
+
+.article_wrapper {
+  position: absolute;
+  margin-top: 55px;
+  margin-left: -10px;
+  border: solid 1px;
+  width: 110%;
+  background-color: rgb(110, 92, 125);
+}
+
+.footer-content {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+  text-align: center;
+  color: white;
+}
+
+.pup_content {
+  margin-right: 30px;
+}
+
+.copyright {
+  margin-right: 88%;
+}

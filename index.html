@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Puppy mag</title>
+</head>
+<body>
+
+
+  <!--Header Section-->
+  <header class="header_container">
+    <img class="logo" src="/img/puppy.jpg" alt="Puppy"
+    oncontextmenu="alert('Copyright Protection');">
+    <nav>
+      <ul class="nav_links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Our Gallery</a></li>
+     
+      </ul>
+    </nav>
+  </header>
+
+
+
+  <!--Main content-->
+  <section>
+    <div class="container">
+      <div class="text">
+        <h1 id="h" onmouseover = "changeBackground();" onmouseout = "revert();">About</h1>
+        <br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga porro sequi eveniet alias sapiente ullam vel nihil, animi reprehenderit delectus. Possimus hic suscipit iusto. Natus quibusdam repellat nulla, ab sint libero optio, aspernatur quae, animi consequatur error unde rem quis ipsa fuga magnam. Molestias dolorem laudantium impedit tempore aut aliquid.</p>
+    </div>
+  </div>
+  </section>
+ 
+  <!--More Content-->
+  <div class="main_container">
+    <div class="item_links">
+      <div class="item-1">
+        <h1>What We Do</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quas.</p>
+        <button class="btn"> Click Here! </button>
+      </div>
+    </div>
+
+
+
+    <div class="item_links">
+      <div class="item-2">
+        <h1>Our Pawsome Magazine</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quas.</p>
+        <button class="btn"> Click Here! </button>
+      </div>
+    </div>
+  </div>
+
+  <!--End-->
+ 
+  <div class="blog_container">
+  <article>
+   <div class="blog">
+     <div class="image">
+    <img id="image" src="/img/office.jpg" alt="Two women in an office">
+  </div>
+     <div class="blog_items">
+       <p class="work">Our work in action:</p>
+       <ul>
+         <br>
+         <li>Dog Grooming</li>
+         <li>Vet Care</li>
+         <li>Dog Walking</li>
+         <li>Weekly/Monthly Magazine Issue</li>
+       </ul>
+     </div>
+     <br>
+     <a class="contact" href="Phone: 555 098 547">Contact Us: 555 098 547</a>
+   </div>
+  </div>
+</div>
+</article>
+
+ <!--Form-->
+<section>
+  <form>
+    <div class="form_container">
+    <div class="h2-text">
+    <h2>Sign Up Today!</h2>
+      </div>
+      <label>
+    <input type="text" name="name" placeholder="Full Name">
+  </label>
+  <label>
+    <input type="text" name="lastname" placeholder="Last Name">
+  </label>
+   <label>
+    <input type="email" name="email" placeholder="Email*" required>
+   </label>
+    
+   <label onclick="alert('Choose a service')" class="services" for="services">Choose a service:</label>
+   <select id="services" name="services">
+     <option  value="Grooming">Grooming</option>
+     <option value="Dog Walking">Dog Walking</option>
+     <option value="Vetenary">Vetenary</option>
+   </select>
+   <br>
+  </label>
+    <input type="radio" id="daily" name="fav_language" value="daily">
+    <label for="daily">Daily</label>
+    <input type="radio" id="weekly" name="weekly" value="weekly">
+    <label for="weekly">Weekly</label>
+    <input type="checkbox" id="monthly" name="monthly" value="monthly">
+    <label  onclick="colorChange();"  <span class="highlight" type="checkbox">Monthly Magazine</span></label>
+    <input type="checkbox" id="extras" name="extras" value="extras">
+    <label type="checkbox">Extras:</label>
+
+    <label>
+    <textarea onclick="alert('Maximum 80 characters')" id="message" name="message" rows="4" cols="50" placeholder="Your Message Here">
+    </textarea>
+  </label>
+    <button  class="btn_btn" type="submit" value="sign in">Sign Up!</button> 
+  </div>
+  </form>
+</section>
+
+ <br>
+    <div class="testimonial_wrapper">
+      <div class="testimonials">
+     <div class="row">
+     <img class="reviewers" src="/img/Andre.jpg" alt="">
+   </div>
+
+   <div class="texts">
+   <p>Lorem ipsum dolor sit <span class="highlighted">Amazing!</span>amet consectetur adipisicing elit. Consequuntur doloribus qui recusandae molestias eum repudiandae, dolores</p>
+   </div>
+  </div>
+
+
+  
+  <div class="testimonials">
+    <div class="row">
+    <img class="reviewers" src="/img/christina.jpg" alt="Christima">
+  </div>
+
+
+  <div class="texts">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloribus qui recusandae molestias eum repudiandae, dolores</p>
+  </div>
+</div>
+
+
+     <div class="testimonials">
+      <div class="row">
+      <img class="reviewers_image" src="/img/humphrey.jpg" alt="Humprey B Bear">
+      </div>
+
+    <div class="texts">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloribus qui recusandae molestias eum repudiandae, dolores </p>
+  </div>
+  </div>
+  </div>
+
+
+
+
+
+<!-- Footer Wrapper-->
+ <footer class="article_wrapper">
+  <div class="footer-content">
+    <div class="pup_content">
+    <h1>Puppy Magazine</h1>
+  </div>
+    <div class="copyright">
+    <h5>&copy; Chrissa Hanna 2022 Pty Ltd</h5>
+  </div>
+    <div>
+    </footer> 
+
+
+
+
+ <script>
+  //  let message = "hello!";
+  //  console.log(message);
+
+  //  function colorChange() { 
+  //  let textHeading = document.querySelector(".highlighted");
+  //  console.log(textHeading);
+  //  textHeading.style.color = "red";
+  //  }
+
+   function colorChange() {
+    let color = document.querySelector(".highlight");
+    console.log(color);
+    color.style.color = "red";
+   }
+
+
+  //  let text = document.getElementById('text');
+
+  //  function onmouseOver() {
+  //   text.innerHTML = "Fill Form!";
+  //  }
+ 
+  // let varBtn = document.querySelector("btn");
+
+  // onmouseover and onmouseout
+  function changeBackground() {
+   document.getElementById("h").style.backgroundColor = "rgb(99, 52, 107)"
+  }
+
+  function revert() {
+    document.getElementById("h").style.backgroundColor = "";
+  }
+
+  // function mouseOut() {
+  //   let varBtn = document.querySelectorAll(".btn")
+  //   varBtn.style.backgroundColor = "hotpink";
+  //   console.log();
+  // }
+
+
+  
+
+
+ </script>
+
+ </body>
+ </html>
+
+
+
+
+
+
+
+
