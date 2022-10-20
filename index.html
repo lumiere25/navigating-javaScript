@@ -34,6 +34,7 @@
         <h1 id="h" onmouseover = "changeBackground();" onmouseout = "revert();">About</h1>
         <br>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga porro sequi eveniet alias sapiente ullam vel nihil, animi reprehenderit delectus. Possimus hic suscipit iusto. Natus quibusdam repellat nulla, ab sint libero optio, aspernatur quae, animi consequatur error unde rem quis ipsa fuga magnam. Molestias dolorem laudantium impedit tempore aut aliquid.</p>
+    <a class="btnthree">Find out more</a>
     </div>
   </div>
   </section>
@@ -122,7 +123,8 @@
     <textarea onclick="alert('Maximum 80 characters')" id="message" name="message" rows="4" cols="50" placeholder="Your Message Here">
     </textarea>
   </label>
-    <button  class="btn_btn" type="submit" value="sign in">Sign Up!</button> 
+    <button onclick="buttonChange();" class="btn_btn" type="submit" value="sign in">Sign Up!</button> 
+    <span id="opentext"></span>
   </div>
 </div>
   </form>
@@ -183,54 +185,11 @@
 
 
 
+  <script src="main.js"></script>
 
- <script>
-  //  let message = "hello!";
-  //  console.log(message);
-
-  //  function colorChange() { 
-  //  let textHeading = document.querySelector(".highlighted");
-  //  console.log(textHeading);
-  //  textHeading.style.color = "red";
-  //  }
-
-   function colorChange() {
-    let color = document.querySelector(".highlight");
-    console.log(color);
-    color.style.color = "red";
-   }
-
-
-  //  let text = document.getElementById('text');
-
-  //  function onmouseOver() {
-  //   text.innerHTML = "Fill Form!";
-  //  }
- 
-  // let varBtn = document.querySelector("btn");
-
-  // onmouseover and onmouseout
-  function changeBackground() {
-   document.getElementById("h").style.backgroundColor = "rgb(99, 52, 107)"
-  }
-
-  function revert() {
-    document.getElementById("h").style.backgroundColor = "";
-  }
-
-  // function mouseOut() {
-  //   let varBtn = document.querySelectorAll(".btn")
-  //   varBtn.style.backgroundColor = "hotpink";
-  //   console.log();
-  // }
-
-
-  
-
-
- </script>
 
  </body>
+
  </html>
 
 

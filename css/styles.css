@@ -88,9 +88,9 @@ img {
 
 
 
- @media screen and (max-width: 989px) {
+ @media screen and (max-width: 1089px) {
   .testimonial_wrapper {
-   flex-direction: column;
+   display: flex;
    justify-content: center;
    margin-top: 240px;
   }
@@ -149,22 +149,11 @@ img {
 
  
   .row {
-    margin-left: 140px;
+    margin-left: 8px;
   }
 }
 
-@media screen and (min-width: 468px) {
-  .testimonial_wrapper {
-   flex-direction: column;
-   justify-content: center;
-   margin-top: 240px;
-  }
 
- 
-  .row {
-    margin-left: -150px;
-  }
-}
 
  
 @media screen and (max-width: 852px) {
@@ -434,6 +423,23 @@ a:hover {
   cursor: pointer;
 }
 
+
+.btnthree {
+  padding: 1rem 2rem;
+  display: block;
+  background-color: rgb(124, 84, 145);
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+.btn-pop {
+ background-color:rgb(108, 87, 130);
+ font-size: 18px;
+}
+
+.btnthree:hover {
+  cursor: pointer;
+}
 
 .blog {
   position: relative;
