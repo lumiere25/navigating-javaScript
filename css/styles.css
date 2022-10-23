@@ -55,282 +55,6 @@ img {
 }
 
 
-@media (min-width: 670px) and (max-width: 910px) {
-  .header_container {
-   display: flex;
-   flex-direction: column;
-   width: 100%;
-
-  }
-
-  li a {
-    margin-right: 20px;
-    display: inline-block;
-}
-}
-
-
-
-
-
-
- @media screen and (max-width: 910px) {
-   .container {
-     width: 110%;
-   }
- }
-
- @media screen and (min-width: 482px) {
-  .container {
-    width: 210%;
-  }
-}
-
-
-
- @media screen and (max-width: 1089px) {
-  .testimonial_wrapper {
-   display: flex;
-   justify-content: center;
-   margin-top: 240px;
-  }
-
-  .row {
-    margin-left: 240px;
-  }
-
-  .texts {
-    width: -30%;
-  }
-}
-
-
-@media screen and (max-width: 800px) {
-  .testimonial_wrapper {
-   flex-direction: column;
-   justify-content: center;
-   margin-top: 240px;
-  }
-
-  .row {
-    margin-left: 160px;
-  }
-
-  .texts {
-    width: -30%;
-  }
-}
-
-@media screen and (max-width: 940px) {
-  .testimonial_wrapper {
-   flex-direction: column;
-   justify-content: center;
-   margin-top: 240px;
-  }
-
-  .row {
-    margin-left: 190px;
-  }
-
-  .texts {
-    width: -30%;
-  }
-}
-
-
-
-
-@media screen and (max-width: 768px) {
-  .testimonial_wrapper {
-   flex-direction: column;
-   justify-content: center;
-   margin-top: 240px;
-  }
-
- 
-  .row {
-    margin-left: 8px;
-  }
-}
-
-
-
- 
-@media screen and (max-width: 852px) {
-  .article_wrapper {
-    position: fixed;
-    bottom: -390%;
-  }
-}
-
-
-
-@media screen and (max-width: 768px) {
-  .article_wrapper {
-    position: fixed;
-    bottom: -390%;
-  }
-}
-
-
-
-
-@media screen and (max-width: 598px) {
-  .testimonial_wrapper {
-   flex-direction: column;
-   justify-content: center;
-  }
-
-  .row {
-    margin-left: 30px;
-  }
-
-  .texts {
-    margin-left: 60px;
-  }
-}
-
-
-
-@media screen and (max-width: 468px) {
-  .testimonial_wrapper {
-   flex-direction: column;
-   justify-content: center;
-  }
-
-  .row {
-    margin-left: 40px;
-  }
-
-  .texts {
-    margin-left: -20px;
-  }
-}
-
-@media screen and (min-width: 468px) {
-  .article_wrapper {
-    position: fixed;
-    bottom: -460%;
-  }
-}
-
-
-
-
-
-@media screen and (max-width: 1078px) {
-  .form_container {
-   margin-top: -40px;
-   margin-left: -29%;
-   width: 160%;
-  }
- }
-
- @media screen and (min-width: 468px) {
-  .form_container {
-   margin-top: -40px;
-   margin-left: -35%;
-   width: 170%;
-  }
- }
- 
-
-
-
-/*  
-@media screen and (max-width: 786px) {
-  .form_container {
-   margin-top: -70px;
-  }
- } */
-
- 
-
- /* @media screen and (max-width: 786px) {
-  .form_container {
-   margin-top: -40px;
-   margin-left: -41%;
-   width: 180%;
-  }
- } */
-
-
-
- @media screen and (max-width: 1026px) {
-  .main_container {
-   display: flex;
-   width: 125%;
-   margin-left: -69px;
-  }
-
-  .btn {
-    width: 55px;
-  }
-}
-
-@media screen and (max-width: 1026px) {
-  .blog_container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-}
-
-@media screen and (max-width: 730px) {
-  .main_container {
-   display: flex;
-   width: 110%;
-   margin-left: -31px;
-  }
-
-  .btn {
-    width: 55px;
-  }
-}
-
-
-@media screen and (max-width: 690px) {
-  .main_container {
-   display: flex;
-   flex-direction: column;
-   width: 170%;
-   /* I may need to put this back so I can center the whole site along with it*/
-   padding: 0;
-   margin: 0;
-
-  }
-}
-
-
-@media screen and (min-width: 668px) {
-  .blog {
-    flex-direction: column;
-    float: none;
-    padding: 0;
-    margin: 0;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .article_container {
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .footer {
-   width: 100%;
-   position: fixed;
-  }
-}
-
-
-
-
-
-
 header {
   display: flex;
   justify-content: space-between;
@@ -530,8 +254,9 @@ label {
 }
 
 textarea {
+  display: flex;
   width: 80%;
-  margin-left: 40px;
+  margin-left: 28px;
 }
 
 
@@ -554,9 +279,10 @@ textarea {
 /* Container */
 .testimonial_wrapper {
  position: relative;
- height: 510px;
+ /* height: 510px; */
+ margin-top: -80%;
  display: flex;
- margin-left: 10px; 
+ margin-left: 55px; 
 }
 
 
@@ -642,3 +368,319 @@ h5 {
 .copyright {
   margin-right: 88%;
 }
+
+
+/* @media screen and (max-width: 1040px) {
+  .testimonial_wrapper {
+   display: flex;
+   justify-content: center;
+   margin-top: 240px;
+  }
+
+  .row {
+    margin-left: 190px;
+  }
+
+  .texts {
+    width: -30%;
+  }
+} */
+
+
+@media (min-width: 670px) and (max-width: 910px) {
+  .header_container {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+
+  }
+
+  li a {
+    margin-right: 20px;
+    display: inline-block;
+}
+}
+
+
+
+
+
+
+ /* @media screen and (max-width: 910px) {
+   .container {
+     width: 110%;
+   }
+ }
+
+ @media screen and (min-width: 482px) {
+  .container {
+    width: 210%;
+  }
+} */
+
+
+
+  @media screen and (max-width: 769px) {
+  .testimonial_wrapper {
+   position: relative;
+   top: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  
+  }
+
+  .row {
+    margin-left: 140px;
+  }
+
+  .texts {
+    width: 110%;
+  }
+}
+
+
+@media screen and (max-width: 959px) {
+  .testimonial_wrapper {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-top: 240px;
+  }
+
+  .row {
+    margin-left: 220px;
+  }
+
+  .texts {
+    width: 110%;
+  }
+}
+
+
+@media screen and (max-width: 1098) {
+  .testimonial_wrapper {
+   display: flex;
+   justify-content: center;
+   margin-top: 190px;
+  }
+
+  .row {
+    margin-left: 220px;
+  }
+
+  .texts {
+    width: 110%;
+  }
+}
+
+
+/* @media screen and (min-width: 900px) {
+  .testimonial_wrapper {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin-top: 240px;
+  }
+  .row {
+    margin-left: 130px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .testimonial_wrapper {
+   display: flex;
+   justify-content: center;
+   margin-top: 240px;
+  }
+
+ 
+  .row {
+    margin-left: 135px;
+  }
+}
+
+ */
+
+ 
+@media screen and (max-width: 852px) {
+  .article_wrapper {
+    position: fixed;
+    top: 410%;
+  }
+}
+
+
+
+@media screen and (max-width: 640px) {
+  .testimonial_wrapper {
+   position: absolute;
+   top: 403%;
+   flex-direction: column;
+   justify-content: center;
+  }
+
+  .row {
+    margin-left: 5%;
+  }
+
+  .texts {
+    margin-left: 20px;
+  }
+} 
+
+
+/* @media screen and (min-width: 450px) {
+  .testimonial_wrapper {
+   position: absolute;
+   top: 403%;
+   flex-direction: column;
+   justify-content: center;
+  }
+
+  .row {
+    margin-left: 19%;
+  }
+  } */
+ 
+
+
+
+
+ @media screen and (max-width: 1078px) {
+  .form_container {
+   margin-top: -40px;
+   margin-left: -29%;
+   width: 160%;
+  }
+ }
+
+
+ @media screen and(min-width: 378px) {
+   .form_container {
+     position: absolute;
+     margin-top: 20%;
+   }
+ }
+
+
+ @media screen and (min-width: 468px) {
+  .form_container {
+   margin-bottom:  80%;
+   margin-right: 35%;
+  }
+  textarea {
+    margin-left: 25px;
+  }
+ }
+ 
+ @media screen and (max-width: 1200px) {
+  textarea {
+    margin-left: 25px;
+  }
+ }
+ 
+
+
+
+ @media screen and (max-width: 1026px) {
+  .main_container {
+   display: flex;
+   width: 125%;
+   margin-left: -69px;
+  }
+
+  .btn {
+    width: 55px;
+  }
+} 
+
+  @media screen and (max-width: 1026px) {
+  .blog_container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .main_container {
+   display: flex;
+   width: 110%;
+   margin-left: -31px;
+  }
+
+  .btn {
+    width: 55px;
+  }
+} 
+
+
+ @media screen and (max-width: 690px) {
+  .main_container {
+   display: flex;
+   flex-direction: column;
+   width: 170%;
+   padding: 0;
+   margin: 0;
+
+  }
+} 
+
+/* 
+@media screen and (max-width: 768px) {
+  .blog {
+    display:flex;
+    float: none;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+
+
+@media screen and (min-width: 668px) {
+  .blog {
+    flex-direction: column;
+    float: none;
+    padding: 0;
+    margin: 0;
+  }
+} */
+
+@media screen and (max-width: 480px) {
+  .article_container {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+}
+
+
+
+@media screen and (min-width: 468px) {
+  .article_wrapper {
+    position: fixed;
+    top: 455%;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .article_wrapper {
+    position: fixed;
+    top: 410%;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .footer {
+   width: 100%;
+   position: fixed;
+  }
+}
+
+
+ 
