@@ -16,10 +16,10 @@
     oncontextmenu="alert('Copyright Protection');">
     <nav>
       <ul class="nav_links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Our Gallery</a></li>
+        <li><a href="#home"class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#our gallery">Our Gallery</a></li>
      
       </ul>
     </nav>
@@ -35,6 +35,10 @@
         <br>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga porro sequi eveniet alias sapiente ullam vel nihil, animi reprehenderit delectus. Possimus hic suscipit iusto. Natus quibusdam repellat nulla, ab sint libero optio, aspernatur quae, animi consequatur error unde rem quis ipsa fuga magnam. Molestias dolorem laudantium impedit tempore aut aliquid.</p>
     <a class="btnthree">Find out more</a>
+    <div class="info_widget">
+      <p>Poodle size facts:</p>
+    </div>
+    <span id="poodle_sizes" class="hideAndShow"></span>
     </div>
   </div>
   </section>
@@ -105,8 +109,11 @@
    <label onclick="alert('Choose a service')" class="services" for="services">Choose a service:</label>
    <select id="services" name="services">
      <option  value="Grooming">Grooming</option>
+     <span class="info_1"></span>
      <option value="Dog Walking">Dog Walking</option>
+     <span class="info_2"></span>
      <option value="Vetenary">Vetenary</option>
+     <span class="info_3"></span>
    </select>
    <br>
   </label>

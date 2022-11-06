@@ -51,14 +51,18 @@
 let btn = document.querySelector(".btn_btn");
 
 function buttonChange() {
- document.getElementById("#opentext")
+ document.getElementById("opentext")
 .innerHTML  = "Hello, We hope you are having a lovely day!";
- document.getElementById("#opentext").style.color = "purple";
+ document.getElementById("opentext").style.color = "purple";
 }
 btn.addEventListener("click", buttonChange);
 
 
 
+// Reminders:
+// I could connect my About button to link to the Gallery section of my webpage.
+// I need to also reference the gallery.html in index.
+// I could add a colored hyperlink as the page scrolls, the hyperlink moves through my navigation items on my nav.
 
 let button = document.querySelector(".btnthree");
 
@@ -68,37 +72,24 @@ function poppyBtn() {
 
 button.addEventListener("click", poppyBtn);
 
-let storePrice = 75;
 
-function myStore() {
-  if(storePrice <= 20) {
-    console.log("You need to spend more");
-    return;
-  } else {
-    console.log("You get a discount!")
-  }
-}
-myStore();
 
-// write a function that gives a discount
-let storeCoat = 15;
-let storePants = 15;
 
-function myClothesStore(storeCoat, storePants) {
-  storeCoat = 15;
-  storePants = 15;
-  let shoppingCart = storeCoat + storePants;
-  if(shoppingCart <= 55) {
-    console.log("You need to spend more!");
-    return;
-  } else if(shoppingCart === 35) {
-    console.log("You are almost there!")
-  } else {
-    console.log("You get the discount!")
-}
+
+let btn3 = document.querySelector(".btnthree");
+
+
+function fetchPoodles() {
+fetch("https://dog.ceo/api/breeds/list/all")
+.then((response) => response.json())
+.then((data) => document.getElementById("poodle_sizes").innerHTML = data.message.poodle);
+// .then((data) => console.log(data.message.poodle));
+
+
 }
 
-myClothesStore();
+btn3.addEventListener("click", fetchPoodles);
+
 
 
 

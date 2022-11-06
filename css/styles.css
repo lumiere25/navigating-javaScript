@@ -78,6 +78,9 @@ header {
   padding: 20px;
 }
 
+.nav_links a.active {
+  border-bottom: 2px solid rgb(218, 83, 150);
+}
 .container {
   display: flex;
   border: solid rgb(95, 61, 106);
@@ -142,8 +145,13 @@ a:hover {
   cursor: pointer;
 }
 
+.btn_btn {
+  padding: 5px 5px;
+  border: 3px solid rgb(81, 53, 88);
+  border-radius: 9px;
+}
 .btn_btn:hover {
-  background-color: rgb(138, 115, 177);
+  background-color: rgb(176, 48, 106);
   cursor: pointer;
 }
 
@@ -151,9 +159,11 @@ a:hover {
 .btnthree {
   padding: 1rem 2rem;
   display: block;
-  background-color: rgb(124, 84, 145);
+  background-color: rgb(218, 83, 150);
   border-radius: 8px;
+  border: 2px solid rgb(95, 61, 106);
   margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 .btn-pop {
@@ -279,9 +289,8 @@ textarea {
 /* Container */
 .testimonial_wrapper {
  position: relative;
- /* height: 510px; */
  display: flex;
- margin-left: 55px; 
+ margin-left: 0%; 
 }
 
 
@@ -422,7 +431,6 @@ h5 {
   @media screen and (max-width: 769px) {
   .testimonial_wrapper {
    position: relative;
-   top: 10%;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -444,7 +452,6 @@ h5 {
    display: flex;
    flex-direction: column;
    justify-content: center;
-   margin-top: 30%;
   }
 
   .row {
@@ -460,20 +467,96 @@ h5 {
 @media screen and (max-width: 1098px) {
   .testimonial_wrapper {
    position: absolute;
-   top: 380%;
    display: flex;
    justify-content: center; 
 
   }
 
   .row {
-    margin-left: 15px;
+    margin-left: 27%;
   }
 
   .texts {
     width: 110%;
   }
 }
+
+
+@media screen and (max-width: 1063px) {
+  .testimonial_wrapper {
+   position: absolute;
+   display: flex;
+   justify-content: center; 
+
+  }
+
+  .row {
+    margin-left: 15%;
+  }
+
+  .texts {
+    width: 110%;
+  }
+}
+
+
+
+@media screen and (max-width: 1100px) {
+  .testimonial_wrapper {
+   position: absolute;
+   left: 1%;
+   display: flex;
+   justify-content: center; 
+
+
+  }
+
+  .row {
+    margin-left: 18%; 
+  }
+
+  .texts {
+    width: 91%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .testimonial_wrapper {
+   position: absolute;
+   right: 0%;
+   display: flex;
+   justify-content: center; 
+
+
+  }
+
+  .row {
+    margin-left: 19%; 
+  }
+
+  .texts {
+    width: 91%;
+  }
+}
+
+/* @media screen and (min-width: 1020px) {
+  .testimonial_wrapper {
+   position: absolute;
+   display: flex;
+   justify-content: center; 
+
+
+  }
+
+  .row {
+    margin-left: 5%; 
+  }
+
+  .texts {
+    width: 91%;
+  }
+} */
+
 
 
 
@@ -496,7 +579,8 @@ h5 {
 } */
 
 
-@media screen and (max-width: 640px) {
+
+@media screen and (max-width: 679px) {
   .testimonial_wrapper {
    position: absolute;
    top: 330%;
@@ -505,11 +589,32 @@ h5 {
   }
 
   .row {
-    margin-left: 4%;
+    margin-left: 12%;
   }
 
   .texts {
     margin-left: 18px;
+  }
+} 
+
+@media screen and (max-width: 640px) {
+  .testimonial_wrapper {
+   position: absolute;
+   top: 350%;
+   flex-direction: column;
+   justify-content: center;
+  }
+
+  .row {
+    margin-left: 2%;
+  }
+
+  .texts {
+    margin-left: 58px;
+  }
+
+  .testimonial_wrapper p {
+    margin-left: 10px;
   }
 } 
 
@@ -533,10 +638,11 @@ h5 {
   .form_container {
   position: relative;
   right: 155px;
-
+  width: 160%;
+ 
    /* margin-top: -40px;
    margin-left: -29%; */
-   width: 160%;
+   
   }
  }
 
@@ -567,7 +673,6 @@ h5 {
   .form_container {
    position: relative;
    right: 23%;
-   margin-bottom:  80%;
    margin-right: 35%;
   }
   textarea {
